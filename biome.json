@@ -1,0 +1,30 @@
+{
+	"$schema": "https://biomejs.dev/schemas/1.4.1/schema.json",
+	"organizeImports": {
+		"enabled": true
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"all": true,
+			"nursery": {
+				"all": true,
+				"noDefaultExport": "off",
+				"useImportRestrictions": "off"
+			},
+			"correctness": {
+				"all": true,
+				"noUndeclaredVariables": "off"
+			},
+			"a11y": {
+				"all": true,
+				"useButtonType": "off"
+			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"semicolons": "asNeeded"
+		}
+	}
+}
